@@ -1,0 +1,34 @@
+.search {
+  margin: 50px 0;
+  width: 100%;
+  display: flex;
+}
+
+.searchInput {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  width: 100%;
+  min-height: 40px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  outline: none;
+  font-size: 18px;
+}
+
+.searchInput::-webkit-search-cancel-button {
+  color: red;
+  background: red;
+  background-color: red;
+}
+
+.searchButton {
+  padding: 20px 40px;
+  align-self: center;
+  background: #84ceff80;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+}
